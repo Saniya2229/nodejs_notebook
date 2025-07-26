@@ -1,0 +1,49 @@
+      <h1 class="text-3xl font-bold mb-6 text-white">🌤️ Weather App</h1>
+
+
+1. Header info:
+	name: Saniya Musa Hakim
+	Phone: 9588427751
+	Address: sr.no 17/4 Mangal Nagar Wakad road,near PCMC school thergoan pune-33
+	Email: saniyahakim22@gmail.com
+	GitHub links: https://github.com/Saniya2229
+2. professional summary:
+	frontend developer from an AI and Data Science background, skilled in HTML,CSS, JavaScript, basic Tailwind CSS, Basic react with vite, MySQL that are reqired for designing attractive interface. passinate about learning to grow new skills and apply them that are interface are are keep simple but attractive and code are understandable who can read them.
+
+3.Education:
+	B. Tech in AI&DS, Genba Sopanrao Moze College of Engineering, Pune
+CGPA-8.86	Ongoing 
+
+Diploma in Computer Engineering,JSPM Rajarshi Shahu College Of Engineering , Tathawade   
+Percentage: 82.57	Aug 2021 – Jun 2023 
+SSC, Sou Tarabai Shankarlal Mutha Kanya Prashala & Junior College, chinchwad 	Jun 2014 -Mar 2020
+ Percentage: 85.40
+
+4.Technical & Soft Skills
+	Technical Skills: Python (Basic for AI/ML), HTML5, CSS3, SQL, MySQL, JavaScript (ES6+), React (Basic with Vite), Tailwind CSS (Basic), NumPy, Pandas, scikit-learn (Basic)
+	Soft Skills: Attention to Detail,Growth Mindset, Adaptability, Time Management, Team Collaboration
+Tools: Git, GitHub, vite
+
+5. Projects:
+
+1. FeedingHope(Food Donation & Food Waste Management Website):
+	Act as a bridge between restaurants and NGOs to manage and reduce food waste.	
+	Facilitate the donation of edible leftover food from restaurants to homeless and 	underprivileged people via NGOs.Provide an online platform where restaurants 	(donors) and NGOs (volunteers) can register, request, and fulfill food donations 	efficiently.
+2. WebRanker (Website evaluation using opinion  mining)
+	This project focuses on evaluating and ranking websites based on user opinions. It uses opinion mining to collect and analyze user reviews, comments, and feedback from different sources. the system assigns a rating or rank to each website, helping users identify trustworthy and high-quality websites easily.
+
+
+6. work/internship history:
+1. Midbrains Technologies - IT Solutions & Digital Marketing  Aug 2023
+	
+Gained hands-on experience in designing and developing website interfaces for various businesses, including shops and service-based companies. Contributed to building functional and user-friendly web pages for online stores, focusing on clean design, responsiveness, and ease of use. Strengthened skills in frontend development by working on real-world projects aligned with client requirements.
+
+"I'm Saniya Musa Hakim, a frontend developer with a background in AI and Data Science. I specialize in HTML, CSS, JavaScript, Tailwind CSS, React (with Vite), and MySQL. I’ve also gained practical experience designing website interfaces during my internship at Midbrains Technologies."
+
+
+I add this, there is no wat to remove this so you have to add into this a remove button and probly add some css for it as well as soon as i click on this button, this should remove this element ans also change my total into this so you need to subtract this anuther things is that if i go ahead and refresh this page, the card gets empty. so i want to inject API's in local storage, which we have already learned that if i add this card, there should be something inside my local storage so that IT cards cannot remains persistent and even ifi refresh, it doesn't go away
+
+
+
+
+	
