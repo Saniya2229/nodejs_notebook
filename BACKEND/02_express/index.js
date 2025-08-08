@@ -1,10 +1,29 @@
 import express from "express";
-
+import logger from "./logger.js";
+import morgan from "morgan";
 const app = express();
 
 const PORT = 3000;
 
 app.use(express.json());
+
+const morganFormat = ":method :url :status :response-time ms";
+
+app.use(
+  morgan(morganFormat, {
+    stream: {
+      write: (message) => {
+        const logObject = {
+          method: message.split(" ")[0],
+          url: message.split(" ")[1],
+          status: message.split(" ")[2],
+          responseTime: message.split(" ")[3],
+        };
+        logger.info(JSON.stringify(logObject));
+      },
+    },
+  })
+);
 
 let userData = [];
 let nextId = 1;
@@ -13,7 +32,7 @@ let nextId = 1;
 
 // add a new user
 app.post("/users", (req, res) => {
-  console.log("POST");
+  logger.info("A post request was made to users.");
   const { name, designation } = req.body;
   const newUser = {
     id: nextId++,
@@ -75,6 +94,11 @@ NOTE: when you run above code you can just go in postman and click the new and t
     "name": "Lily",
     "designation": "developer"
 }
+  import logger from "./logger.js";
+import morgan from "morgan";
+you can copy this from chaicode docs and then you can see the docs and copy the code and paste it in your file
+and also you install the npm install morgan and npm install winston
+and run the code like "npm run dev" and you can see the output in the postman
 */
 
 // app.get("/", (req, res) => {
